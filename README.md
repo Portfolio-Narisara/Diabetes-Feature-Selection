@@ -12,3 +12,20 @@
 6. **BMI**: ดัชนีมวลกาย (น้ำหนักเป็นกิโลกรัม/(ส่วนสูงเป็นเมตร)^2)
 7. **Diabetes Pedigree Function**: ความน่าจะเป็นของการเกิดโรคเบาหวานจากประวัติครอบครัว
 8. **Age**: อายุ (ปี)
+
+## Feature Selection and Evaluation
+
+### Feature Selection
+ใช้การทดสอบไคสแควร์ (Chi-Square Test) เพื่อประเมินความสำคัญของปัจจัยต่าง ๆ ในการทำนายโรคเบาหวาน
+
+### Evaluation
+| Specs                     | Score          |
+|---------------------------|----------------|
+| Insulin                   | 2175.565273    |
+| Glucose                   | 1411.887041    |
+| Age                       | 181.303689     |
+| BMI                       | 127.669343     |
+| Pregnancies               | 111.519691     |
+| SkinThickness             | 53.108040      |
+| BloodPressure             | 17.605373      |
+| DiabetesPedigreeFunction  | 5.392682       |
